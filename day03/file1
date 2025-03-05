@@ -1,0 +1,147 @@
+    1  ip a
+    2  su root
+    3  sudo passwd root
+    4  systemctl ssh states
+    5  systemctl  states ssh
+    6  sudo apt install ssh
+    7  systemctl  states ssh
+    8  systemctl ssh states
+    9  systemctl sshd status 
+   10  ps -elf | grep ssh
+   11  sudo apt intall vim
+   12  sudo apt install vim
+   13  sudo apt install gcc g++
+   14  sudo apt install git
+   15  ls
+   16  sudo apt install zip unzip
+   17  unzip vimplus-master.zip 
+   18  unzip plugged.zip 
+   19  ls
+   20  ls -al
+   21  mkdir -p ~/.vim/
+   22  mv plugged ~/.vim/
+   23  ls ~/
+   24  la
+   25  cd vimplus-master/
+   26  ls
+   27  ./install.sh 
+   28  ls
+   29  cd ..
+   30  ls
+   31  unzip plugged.zip 
+   32  ls
+   33  mv plugged ./.vim/
+   34  la
+   35  mv plugged ~/.vim/
+   36  ls ./.vim/
+   37  rm -rf ./.vim/plugged
+   38  mv plugged ~/.vim/
+   39  cd vimplus-master/
+   40  ls
+   41  ./install.sh 
+   42  uname -a
+   43  cat /etc/issue
+   44  who
+   45  asfwho
+   46  who
+   47  whoami
+   48  man man
+   49  man ls
+   50  ls ~
+   51  pwd
+   52  ls
+   53  ls ~
+   54  ls ./
+   55  cd /
+   56  ls ~
+   57  ls
+   58  echo hello
+   59  echo llll
+   60  ls
+   61  cd test/
+   62  l
+   63  ll
+   64  cd ~
+   65  ls
+   66  mkdir 2025Linux && cd 2025Linux
+   67  ls
+   68  mkdir day02
+   69  cd day02/
+   70  ls
+   71  ll
+   72  echo hello > 1.txt
+   73  ls
+   74  cat 1.txt 
+   75  ls 3.txt
+   76  ls 3.txt 2> 4.txt
+   77  ll
+   78  cat 4.txt 
+   79  echo hello
+   80  vim bothOutput.c
+   81  cat bothOutput.c 
+   82  gcc bothOutput.c -o bothOutput
+   83  l
+   84  ./bothOutput 
+   85  ./bothOutput 1> 1.txt 2> 2.txt
+   86  cat 1.txt 
+   87  cat 2.txt 
+   88  ./bothOutput &> 3.txt
+   89  cat 3.txt 
+   90  cat 1.txt 
+   91  cat < 1.txt 
+   92  vim myEcho.c
+   93  gcc myEcho.c -o myEcho
+   94  ./myEcho 
+   95  ./myEcho < 1.txt 
+   96  cat myEcho.c 
+   97  wc /etc/passwd
+   98  vim file1
+   99  grep -nE "o." file1
+  100  grep -nE "ens33" /var/log/syslog
+  101  grep -nE "ens33.*192\.168\.[0-9][0-9][0-9].[0-9][0-9][0-9]." /var/log/syslog
+  102  grep -nE "ens33[a-z].*192\.168\.[0-9][0-9][0-9].[0-9][0-9][0-9]." /var/log/syslog
+  103  grep -nE "ens33.*192\.168\.[0-9][0-9][0-9].[0-9][0-9][0-9]." /var/log/syslog
+  104  grep -nE "ens33.*192\.168\.[0-9][0-9][0-9].\.[0-9][0-9][0-9]." /var/log/syslog
+  105  grep -nE "ens33.*192\.168\.[0-9][0-9][0-9]?\.[0-9][0-9][0-9]?" /var/log/syslog
+  106  ls /usr/include/
+  107  find /usr/include/ -name "stdio.h"
+  108  grep -nE "stdout" /usr/include/stdio.h
+  109  grep -nE "stdout" /usr/include/c++/11/tr1/stdio.h
+  110  grep -nE "stdout" /usr/include/x86_64-linux-gnu/bits/stdio.h
+  111  grep -nE "stdout" /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/stdio.h
+  112  grep -nE "stdout" /usr/include/stdio.h /usr/include/c++/11/tr1/stdio.h /usr/include/x86_64-linux-gnu/bits/stdio.h
+  113  grep -nE "alias" ~/.bashrc
+  114  grep -nE "(alias)" ~/.bashrc
+  115  grep -nE "\<alias\>" ~/.bashrc
+  116  grep -nE "ens33.*192\.168\.[0-9]{2,3}\.[0-9]{2,3}" /var/log/syslog
+  117  grep -nE "alias" ~/.bashrc
+  118  alias
+  119  l
+  120  ls
+  121  la
+  122  ll
+  123  ls
+  124  alias
+  125  ls
+  126  alias a="echo hello"
+  127  a
+  128  ls
+  129  cat .vimsc
+  130  cat .vimrc
+  131  mv .vimrc .vimrc_bak
+  132  vim .vimrc
+  133  ls
+  134  cd 2025Linux/
+  135  ls
+  136  cd day0
+  137  cd day03
+  138  ls
+  139  vim file111
+  140  sudo apt install vim-youcompleteme 
+  141  mv .vimrc_bak .vimrc
+  142  cd ~
+  143  mv .vimrc_bak .vimrc
+  144  vim .vimrc
+  145  cd -
+  146  ls
+  147  vim test.c
