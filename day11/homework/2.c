@@ -1,12 +1,12 @@
 #include <2025Linux.h>
-#include <unistd.h>
 
 int main(int argc,char *argv[])
 {
     if(fork()){
         wait(NULL);
+		printf("child is closed!\n");
     }else{
-        execl("ls",NULL);
+        execl("ls",",.ls",NULL);
     }
     return 0;
 }
